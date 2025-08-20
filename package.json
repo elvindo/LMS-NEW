@@ -7,8 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
+    
   },
+  "homepage": "https://elvindo.github.io/LMS-NEW",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
